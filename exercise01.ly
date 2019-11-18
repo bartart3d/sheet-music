@@ -1,5 +1,5 @@
 \header {
-  title = "From Petit Solfège"
+  title = "Petit Solfège"
   composer = "Trojelli"
 }
 \paper {

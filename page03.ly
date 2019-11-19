@@ -1,13 +1,13 @@
-\header {
-  title = "Untitled"
-  composer = "Composer"
-}
+
 
 \score {
   \relative c' {
-    c4
+    \time 3/4 
+    c4 d8 e f4 | g4 f8 e d4 | c4 d8 e f4 | g4 f8 e d4 \bar ":|." c2 r4 \bar "|."
   }
 
-  \layout {}
+  \layout {
+  ragged-right = ##f
+  }
   \midi {}
 }

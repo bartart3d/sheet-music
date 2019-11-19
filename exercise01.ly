@@ -49,3 +49,25 @@ piece = "4"
   \layout {}
   \midi {}
 }
+
+\score {
+  \relative c' {
+    \time 2/4 c4 d8 e | e4 d8 c \bar ":|.|:" c8 d e4 | e8 d c4 \bar ":|.|:" c8 d e f | g f e d  \bar ":|.|:" c2^\markup "repos." \bar "|."
+    }
+\header {
+piece = "5-7"
+}
+  \layout {}
+  \midi {}
+}
+
+\score {
+  \relative c' {
+    \time 2/4 c4 d8 e | e4 d8 c \bar ":|.|:" c8 d e4 | e8 d c4 \bar ":|.|:" c8 d e f | g f e d  \bar ":|.|:" c2^\markup "repos." \bar "|."
+    }
+\header {
+piece = "5-7"
+}
+  \layout {}
+  \midi {}
+}

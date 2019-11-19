@@ -68,3 +68,99 @@ piece = "21"
   }
   \midi {}
 }
+
+\score {
+  \relative c' {
+    \time 4/4 
+     c1 d e d c \bar ":|."
+  }
+\header {
+piece = "22"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c' {
+    \time 4/4 
+     c2 d | e  f | g f | e d  \bar ":|." c1 \bar "|."
+  }
+\header {
+piece = "23"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c' {
+    \time 4/4 
+     c1 d2 e f1 e2 d c1 \bar ":|."
+  }
+\header {
+piece = "24"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c' {
+    \time 4/4 
+     c2 d | e1 | f2 e | d1 | c2 r_\markup "demi-pause" \bar ":|."
+  }
+\header {
+piece = "25"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+\score {
+  \relative c' {
+    \time 4/4 
+     c4 d e f | g f e d | \bar ":|." c2 r \bar "|."
+  }
+\header {
+piece = "26"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c' {
+    \time 4/4 
+     c2 d4 e | f2 g4 a | g2 f4 e | f2 e4 d | c2 r \bar ":|."
+  }
+\header {
+piece = "27"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+\score {
+  \relative c' {
+    \time 4/4 
+     c4 d e2 | f4 g a2 | g4 f e2 | f4 e d2 | c2 r \bar ":|."
+  }
+\header {
+piece = "28"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}

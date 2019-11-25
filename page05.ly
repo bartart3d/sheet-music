@@ -133,3 +133,31 @@
   }
   \midi {}
 }
+
+\score {
+  \relative c'' {
+  \time 2/4
+    c2 r g r a4 g a b c2 r2 \bar "|."
+  }
+\header {
+  piece = "51"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c'' {
+  \time 2/4
+    r4 g | r a | r b r c r d c r \bar "|."
+  }
+\header {
+  piece = "52"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}

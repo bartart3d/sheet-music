@@ -63,3 +63,73 @@
   }
   \midi {}
 }
+
+\score {
+  \relative c'' {
+  \time 3/4
+    r2. c r2. d r c \bar "|."
+  }
+\header {
+  piece = "46"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c'' {
+  \time 3/4
+    c2 r4 | b2 r4 | d2 r4 | c2 r4 \bar "|."
+  }
+\header {
+  piece = "47"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c'' {
+  \time 3/4
+    g2 r4 | c2 r4 | d2 r4 | c2 r4\bar "|."
+  }
+\header {
+  piece = "48"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c'' {
+  \time 3/4
+    r2 c4 | r2 b4 | r2 a4 | r2 g4 | r4 c c \bar "|."
+  }
+\header {
+  piece = "49"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
+
+\score {
+  \relative c'' {
+  \time 3/4
+    r4 g8 a b c | r4 d8 c b a | r4 g8 a b c | r4 d8 c b d | c4 r r \bar "|."
+  }
+\header {
+  piece = "50"
+}
+  \layout {
+  ragged-right = ##f
+  }
+  \midi {}
+}
